@@ -1,3 +1,4 @@
+'''
 Enhanced Python Loops, Iteration & Data Structure Operations Study Plan
 Week 1: Fundamentals of Iteration
 Day 1-2: Basic For Loops
@@ -9,6 +10,8 @@ Loop control: break, continue, else
 Examples:
 
 python
+'''
+
 # Basic for loop with range
 for i in range(5):
     print(i)  # Prints 0, 1, 2, 3, 4
@@ -30,14 +33,20 @@ for i in range(5):
     print(i)  # Prints 0, 1, 3, 4
 #Practice Problems:
 
-Write a for loop that prints numbers from 1 to 10.
+# Write a for loop that prints numbers from 1 to 10.
 
 for i in range(10):
     print(i)
-Write a for loop that prints all even numbers from 20 to 40.
-Write a for loop that counts down from 10 to 1.
-Write a loop that sums all numbers from 1 to 100.
-Write a loop that prints the first 10 multiples of 7.
+
+# Write a for loop that prints all even numbers from 20 to 40.
+
+# Write a for loop that counts down from 10 to 1.
+
+# Write a loop that sums all numbers from 1 to 100.
+
+# Write a loop that prints the first 10 multiples of 7.
+
+'''
 Day 3-4: Iterating Through Lists and Tuples
 Concepts:
 
@@ -47,6 +56,8 @@ Using enumerate()
 Examples:
 
 python
+'''
+
 # Direct element iteration
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
@@ -59,13 +70,22 @@ for i in range(len(fruits)):
 # Using enumerate
 for index, fruit in enumerate(fruits):
     print(f"Index {index}: {fruit}")
+
+'''    
 Practice Problems:
+'''
 
 Create a list of 5 favorite books and iterate through it, printing each one.
+
 Create a list of numbers and write a loop to find the largest value.
+
 Write a loop that separates a list of numbers into two lists: even and odd.
+
 Iterate through a list of strings and print only those that start with 'a'.
+
 Given a list of numbers, create a new list containing the square of each number.
+
+'''
 Day 5-7: While Loops
 Concepts:
 
@@ -76,6 +96,8 @@ Combining while loops with user input
 Examples:
 
 python
+'''
+
 # Basic while loop
 count = 0
 while count < 5:

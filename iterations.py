@@ -1,10 +1,11 @@
 #############################################
 # 🐍 Python Iteration & Indexing Cheatsheet #
 #############################################
-
+'''
 ----------------------
 📦 LISTS
 ----------------------
+'''
 fruits = ['apple', 'banana', 'cherry']
 
 # Iterate over elements
@@ -19,10 +20,11 @@ for i in range(len(fruits)):
 for i, fruit in enumerate(fruits):
     print(i, fruit)
 
-
+'''
 ----------------------
 🔤 STRINGS
 ----------------------
+'''
 word = "hello"
 
 # Iterate characters
@@ -33,10 +35,11 @@ for char in word:
 for i, char in enumerate(word):
     print(i, char)
 
-
+'''
 ----------------------
 📓 DICTIONARIES
 ----------------------
+'''
 person = {'name': 'Alice', 'age': 30}
 
 # Keys
@@ -51,10 +54,11 @@ for key, value in person.items():
 for value in person.values():
     print(value)
 
-
+'''
 ----------------------
 📊 PANDAS DataFrame
 ----------------------
+'''
 import pandas as pd
 df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
 
@@ -66,10 +70,11 @@ for index, row in df.iterrows():
 for value in df['A']:
     print(value)
 
-
+'''
 ----------------------
 🧰 USEFUL PATTERNS
 ----------------------
+'''
 # enumerate()
 for i, item in enumerate(mylist):
     print(i, item)
@@ -81,10 +86,11 @@ for name, score in zip(names, scores):
 # list comprehension
 squared = [x**2 for x in range(5)]
 
-
+'''
 ----------------------
 🧮 NESTED LISTS
 ----------------------
+'''
 matrix = [[1, 2, 3], [4, 5, 6]]
 
 # Nested loop
@@ -100,10 +106,11 @@ for i, row in enumerate(matrix):
     for j, val in enumerate(row):
         print(f"matrix[{i}][{j}] = {val}")
 
-
+'''
 ----------------------
 🔢 RANGE PATTERNS
 ----------------------
+'''
 # Basic
 for i in range(5):
     print(i)
@@ -116,19 +123,21 @@ for i in range(1, 10, 2):
 for i in range(5, 0, -1):
     print(i)
 
-
+'''
 ----------------------
 🧾 LIST OF DICTS
 ----------------------
+'''
 students = [{'name': 'Alice', 'score': 92}, {'name': 'Bob', 'score': 87}]
 
 for student in students:
     print(student['name'], student['score'])
 
-
+'''
 ----------------------
 🧮 NUMPY
 ----------------------
+'''
 import numpy as np
 arr = np.array([[1, 2], [3, 4]])
 
@@ -140,11 +149,11 @@ for row in arr:
 # Access
 print(arr[0, 1])  # 2
 
-
+'''
 ----------------------
 ⚡ COMPREHENSIONS
 ----------------------
-
+'''
 # List
 [x**2 for x in range(5)]
 
@@ -166,10 +175,11 @@ print(arr[0, 1])  # 2
 # Nested list flatten
 [val for row in matrix for val in row]
 
-
+'''
 ----------------------
 🧪 CHALLENGES TO TRY
 ----------------------
+'''
 # Count characters
 char_count = {}
 for char in sentence:
@@ -183,7 +193,7 @@ for char in sentence:
 words = ['cat', 'car', 'dog']
 first_letters = {word[0] for word in words}
 
-
+'''
 ----------------------
 ⚠️ GOTCHAS & TIPS
 ----------------------
@@ -192,4 +202,4 @@ first_letters = {word[0] for word in words}
 - Use vectorized ops with pandas when possible
 - df.iterrows() returns Series — slow for big data
 - Comprehensions = fast, clean, readable — but don't over-nest!
-
+'''
