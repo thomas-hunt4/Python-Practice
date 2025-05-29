@@ -417,17 +417,17 @@ def bubble_sort(lst):
 Practice Problems:
 '''
 
-Implement bubble sort, selection sort, and insertion sort algorithms.
+# Implement bubble sort, selection sort, and insertion sort algorithms.
 
-Write a function that sorts a list of tuples by the second element.
+# Write a function that sorts a list of tuples by the second element.
 
-Create a program that sorts strings by their last character.
+# Create a program that sorts strings by their last character.
 
-Implement a function that sorts a list of numbers but keeps negative numbers at the beginning.
+# Implement a function that sorts a list of numbers but keeps negative numbers at the beginning.
 
-Write code to sort a list of dictionaries by multiple criteria.
+# Write code to sort a list of dictionaries by multiple criteria.
 
-Week 3: Dictionary Operations and Manipulation
+# Week 3: Dictionary Operations and Manipulation
 
 '''
 Day 18-19: Adding and Updating Dictionary Elements
@@ -987,235 +987,355 @@ else:
 
 '''
 Enhanced Practice Problems (150 Total)
+
 List Operations (Problems 1-50)
+
+
 Adding Elements (1-10):
 '''
 
-Write a function that adds elements to a list only if they're unique.
+# Write a function that adds elements to a list only if they're unique.
 
-Create a program that merges two lists alternately (a[0], b[0], a[1], b[1], ...).
+# Create a program that merges two lists alternately (a[0], b[0], a[1], b[1], ...).
 
-Write a function that inserts elements at calculated positions based on their values.
+# Write a function that inserts elements at calculated positions based on their values.
 
-Implement a function that adds elements to maintain sorted order.
+# Implement a function that adds elements to maintain sorted order.
 
-Create a program that extends a list with elements from multiple sources.
+# Create a program that extends a list with elements from multiple sources.
 
-Write a function that adds elements based on conditions from another list.
+# Write a function that adds elements based on conditions from another list.
 
-Create a program that builds a list by adding elements in batches.
+# Create a program that builds a list by adding elements in batches.
 
-Implement a function that adds elements while avoiding duplicates in nested lists.
+# Implement a function that adds elements while avoiding duplicates in nested lists.
 
-Write code that adds elements to the beginning, middle, and end of a list efficiently.
+# Write code that adds elements to the beginning, middle, and end of a list efficiently.
 
-Create a function that adds computed values based on existing list elements.
+# Create a function that adds computed values based on existing list elements.
+'''
+Removing Elements (11-20):
+''' 
+# 11. Write a function that removes elements while maintaining relative order. 
 
-Removing Elements (11-20): 
-11. Write a function that removes elements while maintaining relative order. 
+# 12. Create a program that removes elements based on their position patterns. 
 
-12. Create a program that removes elements based on their position patterns. 
+# 13. Write a function that removes elements from multiple positions simultaneously. 
 
-13. Write a function that removes elements from multiple positions simultaneously. 
+# 14. Implement a program that removes outliers from a numerical list. 
 
-14. Implement a program that removes outliers from a numerical list. 
+# 15. Create a function that removes elements that appear more than n times. 
 
-15. Create a function that removes elements that appear more than n times. 
+# 16. Write code that removes elements based on comparison with neighboring elements. 
 
-16. Write code that removes elements based on comparison with neighboring elements. 
+# 17. Implement a function that removes elements using multiple criteria. 
 
-17. Implement a function that removes elements using multiple criteria. 
+# 18. Create a program that removes elements while preserving list structure in nested lists. 
 
-18. Create a program that removes elements while preserving list structure in nested lists. 
+# 19. Write a function that removes elements and returns them in removal order. 
 
-19. Write a function that removes elements and returns them in removal order. 
+# 20. Create a program that conditionally removes elements based on external data.
 
-20. Create a program that conditionally removes elements based on external data.
-
+'''
 Editing/Modifying Elements (21-30): 
+'''
+# 21. Write a function that applies different transformations to elements based on their indices. 
 
-21. Write a function that applies different transformations to elements based on their indices. 
+# 22. Create a program that modifies elements based on their relationship to list statistics. 
 
-22. Create a program that modifies elements based on their relationship to list statistics. 
+# 23. Write a function that swaps elements according to a specific pattern. 
 
-23. Write a function that swaps elements according to a specific pattern. 
+# 24. Implement a program that modifies elements based on conditions from parallel lists. 
 
-24. Implement a program that modifies elements based on conditions from parallel lists. 
+# 25. Create a function that normalizes list values using different methods. 
 
-25. Create a function that normalizes list values using different methods. 
+# 26. Write code that modifies elements while maintaining certain list properties. 
 
-26. Write code that modifies elements while maintaining certain list properties. 
+# 27. Implement a function that applies cumulative operations to list elements. 
 
-27. Implement a function that applies cumulative operations to list elements. 
+# 28. Create a program that modifies nested list elements based on their depth. 
 
-28. Create a program that modifies nested list elements based on their depth. 
+# 29. Write a function that conditionally modifies elements and tracks changes. 
 
-29. Write a function that conditionally modifies elements and tracks changes. 
+# 30. Create a program that applies batch modifications with rollback capability.
 
-30. Create a program that applies batch modifications with rollback capability.
-
+'''
 Searching in Lists (31-40):
+'''
+# 31. Write a function that finds elements matching complex criteria. 
 
-31. Write a function that finds elements matching complex criteria. 
+# 32. Create a program that searches for patterns in sequential elements. 
 
-32. Create a program that searches for patterns in sequential elements. 
+# 33. Write a function that finds the closest element to a target value. 
 
-33. Write a function that finds the closest element to a target value. 
+# 34. Implement a program that searches for elements in nested lists with path tracking. 
 
-34. Implement a program that searches for elements in nested lists with path tracking. 
+# 35. Create a function that finds elements based on statistical properties. 
 
-35. Create a function that finds elements based on statistical properties. 
+# 36. Write code that searches using multiple algorithms and compares performance. 
 
-36. Write code that searches using multiple algorithms and compares performance. 
+# 37. Implement a function that finds elements with fuzzy matching criteria. 
 
-37. Implement a function that finds elements with fuzzy matching criteria. 
+# 38. Create a program that searches for subsequences within the list. 
 
-38. Create a program that searches for subsequences within the list. 
+# 39. Write a function that finds elements based on their relationships to other elements. 
 
-39. Write a function that finds elements based on their relationships to other elements. 
+# 40. Create a program that implements parallel searching in multiple lists.
 
-40. Create a program that implements parallel searching in multiple lists.
-
+'''
 Sorting Lists (41-50): 
+'''
+# 41. Write a function that implements merge sort with custom comparison. 
 
-41. Write a function that implements merge sort with custom comparison. 
+# 42. Create a program that sorts while maintaining stability for equal elements. 
 
-42. Create a program that sorts while maintaining stability for equal elements. 
+# 43. Write a function that sorts different data types in a mixed list. 
 
-43. Write a function that sorts different data types in a mixed list. 
+# 44. Implement a program that sorts based on external criteria from another data structure. 
 
-44. Implement a program that sorts based on external criteria from another data structure. 
+# 45. Create a function that sorts nested lists by multiple attributes. 
 
-45. Create a function that sorts nested lists by multiple attributes. 
+# 46. Write code that implements adaptive sorting based on data characteristics. 
 
-46. Write code that implements adaptive sorting based on data characteristics. 
+# 47. Implement a function that sorts and groups elements simultaneously. 
 
-47. Implement a function that sorts and groups elements simultaneously. 
+# 48. Create a program that sorts while maintaining certain element relationships. 
 
-48. Create a program that sorts while maintaining certain element relationships. 
+# 49. Write a function that sorts using custom algorithms for specific data patterns. 
 
-49. Write a function that sorts using custom algorithms for specific data patterns. 
+# 50. Create a program that implements distributed sorting for very large lists.
 
-50. Create a program that implements distributed sorting for very large lists.
-
+'''
 Dictionary Operations (Problems 51-100)
 Adding/Updating Elements (51-60): 
+'''
+# 51. Write a function that safely merges dictionaries with conflict resolution. 
 
-51. Write a function that safely merges dictionaries with conflict resolution. 
+# 52. Create a program that adds computed key-value pairs based on existing data. 
 
-52. Create a program that adds computed key-value pairs based on existing data. 
+# 53. Write a function that updates nested dictionaries recursively. 
 
-53. Write a function that updates nested dictionaries recursively. 
+# 54. Implement a program that adds elements with automatic key generation. 
 
-54. Implement a program that adds elements with automatic key generation. 
+# 55. Create a function that conditionally updates values based on external conditions. 
 
-55. Create a function that conditionally updates values based on external conditions. 
+# 56. Write code that adds elements while maintaining dictionary invariants. 
 
-56. Write code that adds elements while maintaining dictionary invariants. 
+# 57. Implement a function that updates dictionaries with data from multiple sources. 
 
-57. Implement a function that updates dictionaries with data from multiple sources. 
+# 58. Create a program that adds elements with dependency management. 
 
-58. Create a program that adds elements with dependency management. 
+# 59. Write a function that updates values using different strategies per key. 
 
-59. Write a function that updates values using different strategies per key. 
+# 60. Create a program that manages dictionary updates with transaction-like behavior.
 
-60. Create a program that manages dictionary updates with transaction-like behavior.
-
+'''
 Removing Elements (61-70): 
+'''
+# 61. Write a function that removes elements based on complex value conditions. 
 
-61. Write a function that removes elements based on complex value conditions. 
+# 62. Create a program that removes keys matching regular expression patterns. 
 
-62. Create a program that removes keys matching regular expression patterns. 
+# 63. Write a function that removes elements while maintaining dictionary relationships. 
 
-63. Write a function that removes elements while maintaining dictionary relationships. 
+# 64. Implement a program that removes elements based on frequency analysis. 
 
-64. Implement a program that removes elements based on frequency analysis. 
+# 65. Create a function that removes elements with cascading deletion in nested structures. 
 
-65. Create a function that removes elements with cascading deletion in nested structures. 
+# 66. Write code that removes elements based on statistical outlier detection. 
 
-66. Write code that removes elements based on statistical outlier detection. 
+# 67. Implement a function that removes elements with undo capability. 
 
-67. Implement a function that removes elements with undo capability. 
+# 68. Create a program that removes elements based on temporal conditions. 
 
-68. Create a program that removes elements based on temporal conditions. 
+# 69. Write a function that removes elements while preserving dictionary balance. 
 
-69. Write a function that removes elements while preserving dictionary balance. 
+# 70. Create a program that removes elements with batch processing optimization.
 
-70. Create a program that removes elements with batch processing optimization.
-
+'''
 Editing/Modifying Values (71-80): 
+'''
+# 71. Write a function that applies different transformations based on key patterns. 
 
-71. Write a function that applies different transformations based on key patterns. 
+# 72. Create a program that modifies values based on dictionary-wide statistics. 
 
-72. Create a program that modifies values based on dictionary-wide statistics. 
+# 73. Write a function that updates values while maintaining data consistency. 
 
-73. Write a function that updates values while maintaining data consistency. 
+# 74. Implement a program that modifies nested dictionary values recursively. 
 
-74. Implement a program that modifies nested dictionary values recursively. 
+# 75. Create a function that applies conditional modifications with rollback. 
 
-75. Create a function that applies conditional modifications with rollback. 
+# 76. Write code that modifies values based on relationships between keys. 
 
-76. Write code that modifies values based on relationships between keys. 
+# 77. Implement a function that updates values using external lookup tables. 
 
-77. Implement a function that updates values using external lookup tables. 
+# 78. Create a program that modifies values while tracking change history. 
 
-78. Create a program that modifies values while tracking change history. 
+# 79. Write a function that applies batch modifications with validation. 
 
-79. Write a function that applies batch modifications with validation. 
+# 80. Create a program that modifies values based on complex business rules.
 
-80. Create a program that modifies values based on complex business rules.
-
+'''
 Searching in Dictionaries (81-90): 
+'''
+# 81. Write a function that searches dictionaries using multiple criteria simultaneously. 
 
-81. Write a function that searches dictionaries using multiple criteria simultaneously. 
+# 82. Create a program that finds keys or values using pattern matching. 
 
-82. Create a program that finds keys or values using pattern matching. 83. Write a function that searches nested dictionaries with path reconstruction. 
+# 83. Write a function that searches nested dictionaries with path reconstruction. 
 
-84. Implement a program that searches using fuzzy matching for keys and values. 
+# 84. Implement a program that searches using fuzzy matching for keys and values. 
 
-85. Create a function that finds related items based on value similarity. 
+# 85. Create a function that finds related items based on value similarity. 
 
-86. Write code that searches dictionaries using graph-like relationships. 
+# 86. Write code that searches dictionaries using graph-like relationships. 
 
-87. Implement a function that searches with caching for repeated queries. 
+# 87. Implement a function that searches with caching for repeated queries. 
 
-88. Create a program that searches using indexing for large dictionaries. 
+# 88. Create a program that searches using indexing for large dictionaries. 
 
-89. Write a function that searches with ranking and scoring of results. 
+# 89. Write a function that searches with ranking and scoring of results. 
 
-90. Create a program that implements full-text search within dictionary values.
+# 90. Create a program that implements full-text search within dictionary values.
 
-Sorting Dictionaries (91-100): 
+'''
+Sorting Dictionaries (91-100):
+'''
 
-91. Write a function that sorts dictionaries by multiple attributes with precedence. 
+# 91. Write a function that sorts dictionaries by multiple attributes with precedence. 
 
-92. Create a program that sorts while maintaining logical groupings. 
+# 92. Create a program that sorts while maintaining logical groupings. 
 
-93. Write a function that sorts nested dictionaries recursively. 
+# 93. Write a function that sorts nested dictionaries recursively. 
 
-94. Implement a program that sorts using custom comparison functions. 
+# 94. Implement a program that sorts using custom comparison functions. 
 
-95. Create a function that sorts dictionaries based on external reference data. 
+# 95. Create a function that sorts dictionaries based on external reference data. 
 
-96. Write code that sorts while preserving certain key relationships. 
+# 96. Write code that sorts while preserving certain key relationships. 
 
-97. Implement a function that sorts using statistical measures of values. 
+# 97. Implement a function that sorts using statistical measures of values. 
 
-98. Create a program that sorts dictionaries with pagination support. 
+# 98. Create a program that sorts dictionaries with pagination support. 
 
-99. Write a function that sorts using machine learning-based criteria. 
+# 99. Write a function that sorts using machine learning-based criteria. 
 
-100. Create a program that implements adaptive sorting based on usage patterns.
+# 100. Create a program that implements adaptive sorting based on usage patterns.
 
+'''
 Advanced Integration Problems (101-150)
-Complex Data Structure Operations (101-120): 101. Create a program that manages a library system with books, authors, and borrowers. 102. Write a function that analyzes social network connections using nested dictionaries. 103. Implement a program that processes e-commerce data (products, orders, customers). 104. Create a function that manages a school system (students, classes, grades, teachers). 105. Write a program that handles inventory management with multiple warehouses. 106. Implement a function that processes financial transactions with categorization. 107. Create a program that manages a hospital system (patients, doctors, appointments). 108. Write a function that analyzes survey data with multiple question types. 109. Implement a program that manages a transportation system (routes, schedules, vehicles). 110. Create a function that processes scientific experimental data with nested measurements. 111. Write a program that handles a content management system (articles, categories, tags). 112. Implement a function that manages a food ordering system (restaurants, menus, orders). 113. Create a program that processes sports statistics (teams, players, games, scores). 114. Write a function that handles a project management system (projects, tasks, resources). 115. Implement a program that manages a music streaming service (songs, playlists, users). 116. Create a function that processes weather data with temporal and spatial dimensions. 117. Write a program that handles a real estate system (properties, agents, clients). 118. Implement a function that manages a conference system (speakers, sessions, attendees). 119. Create a program that processes genomic data with complex nested structures. 120. Write a function that handles a gaming system (players, achievements, leaderboards).
+Complex Data Structure Operations (101-120): 
+'''
+# 101. Create a program that manages a library system with books, authors, and borrowers. 
 
-Performance and Optimization (121-130): 121. Write a function that optimizes list operations for memory usage. 122. Create a program that benchmarks different dictionary operation approaches. 123. Write a function that implements caching for expensive operations. 124. Implement a program that processes large datasets with streaming techniques. 125. Create a function that optimizes search operations using indexing. 126. Write code that implements lazy evaluation for complex computations. 127. Implement a function that uses parallel processing for data operations. 128. Create a program that optimizes memory usage for nested data structures. 129. Write a function that implements data compression for storage efficiency. 130. Create a program that optimizes operations using algorithm selection.
+# 102. Write a function that analyzes social network connections using nested dictionaries. 
 
-Integration with External Systems (131-140): 131. Write a function that processes CSV data into optimized dictionary structures. 132. Create a program that handles JSON data with complex nested operations. 133. Write a function that integrates database results with in-memory operations. 134. Implement a program that processes XML data using dictionary and list operations. 135. Create a function that handles API responses with data transformation. 136. Write code that processes log files using efficient search and filtering. 137. Implement a function that handles real-time data streams with buffering. 138. Create a program that processes image metadata using nested data structures. 139. Write a function that handles configuration files with validation and defaults. 140. Create a program that processes network data with connection relationship mapping.
+# 103. Implement a program that processes e-commerce data (products, orders, customers). 
 
-Advanced Algorithms and Patterns (141-150): 141. Implement a function that uses dynamic programming with memoization in dictionaries. 142. Create a program that implements graph algorithms using dictionary representations. 143. Write a function that performs pattern matching in complex data structures. 144. Implement a program that uses machine learning techniques for data classification. 145. Create a function that implements distributed processing across data partitions. 146. Write code that implements event-driven processing with state management. 147. Implement a function that uses functional programming patterns for data transformation. 148. Create a program that implements reactive programming patterns for data updates. 149. Write a function that implements microservice-like data processing patterns. 150. Create a comprehensive program that demonstrates all learned concepts in a real-world scenario.
+# 104. Create a function that manages a school system (students, classes, grades, teachers). 
 
+# 105. Write a program that handles inventory management with multiple warehouses. 
+
+# 106. Implement a function that processes financial transactions with categorization. 
+
+# 107. Create a program that manages a hospital system (patients, doctors, appointments). 
+
+# 108. Write a function that analyzes survey data with multiple question types. 
+
+# 109. Implement a program that manages a transportation system (routes, schedules, vehicles). 
+
+# 110. Create a function that processes scientific experimental data with nested measurements. 
+
+# 111. Write a program that handles a content management system (articles, categories, tags). 
+
+# 112. Implement a function that manages a food ordering system (restaurants, menus, orders). 
+
+# 113. Create a program that processes sports statistics (teams, players, games, scores).
+
+# 114. Write a function that handles a project management system (projects, tasks, resources). 
+
+# 115. Implement a program that manages a music streaming service (songs, playlists, users). 
+
+# 116. Create a function that processes weather data with temporal and spatial dimensions. 
+
+# 117. Write a program that handles a real estate system (properties, agents, clients). 
+
+# 118. Implement a function that manages a conference system (speakers, sessions, attendees). 
+
+# 119. Create a program that processes genomic data with complex nested structures. 
+
+# 120. Write a function that handles a gaming system (players, achievements, leaderboards).
+
+'''
+Performance and Optimization (121-130): 
+'''
+# 121. Write a function that optimizes list operations for memory usage. 
+
+# 122. Create a program that benchmarks different dictionary operation approaches. 
+
+# 123. Write a function that implements caching for expensive operations. 
+
+# 124. Implement a program that processes large datasets with streaming techniques. 
+
+# 125. Create a function that optimizes search operations using indexing. 
+
+# 126. Write code that implements lazy evaluation for complex computations. 
+
+# 127. Implement a function that uses parallel processing for data operations. 
+
+# 128. Create a program that optimizes memory usage for nested data structures. 
+
+# 129. Write a function that implements data compression for storage efficiency. 
+
+# 130. Create a program that optimizes operations using algorithm selection.
+
+'''
+Integration with External Systems (131-140): 
+'''
+# 131. Write a function that processes CSV data into optimized dictionary structures. 
+
+# 132. Create a program that handles JSON data with complex nested operations. 
+
+# 133. Write a function that integrates database results with in-memory operations. 
+
+# 134. Implement a program that processes XML data using dictionary and list operations. 
+
+# 135. Create a function that handles API responses with data transformation. 
+
+# 136. Write code that processes log files using efficient search and filtering. 
+
+# 137. Implement a function that handles real-time data streams with buffering. 
+
+# 138. Create a program that processes image metadata using nested data structures. 
+
+# 139. Write a function that handles configuration files with validation and defaults. 
+
+# 140. Create a program that processes network data with connection relationship mapping.
+
+'''
+Advanced Algorithms and Patterns (141-150): 
+'''
+# 141. Implement a function that uses dynamic programming with memoization in dictionaries. 
+
+# 142. Create a program that implements graph algorithms using dictionary representations. 
+
+# 143. Write a function that performs pattern matching in complex data structures. 
+
+# 144. Implement a program that uses machine learning techniques for data classification. 
+
+# 145. Create a function that implements distributed processing across data partitions. 
+
+# 146. Write code that implements event-driven processing with state management. 
+
+# 147. Implement a function that uses functional programming patterns for data transformation. 
+
+# 148. Create a program that implements reactive programming patterns for data updates. 
+
+# 149. Write a function that implements microservice-like data processing patterns. 
+
+# 150. Create a comprehensive program that demonstrates all learned concepts in a real-world scenario.
+
+'''
 Additional Study Resources
 Advanced Topics to Explore:
 Collections Module: Counter, defaultdict, OrderedDict, deque
@@ -1267,4 +1387,4 @@ Weekly Review: Every weekend, review the week's concepts and identify areas need
 Mock Exams: Take practice tests under timed conditions to simulate exam scenarios
 
 Remember: The key to mastering these concepts is consistent practice and gradually increasing the complexity of problems you solve. Focus on understanding the underlying principles rather than memorizing solutions!
-
+'''
