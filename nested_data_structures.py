@@ -14,15 +14,15 @@ Key characteristics:
 - Indexed: Access items using index numbers (starting from 0)
 
 Common operations:
-- append(item): Add item to end
-- insert(index, item): Insert item at specific position
-- remove(item): Remove first occurrence of item
-- pop(index): Remove and return item at index (default: last item)
-- index(item): Find index of first occurrence
-- count(item): Count occurrences of item
-- sort(): Sort in place
-- reverse(): Reverse in place
-- extend(iterable): Add all items from another iterable
+-list.append(item): Add item to end
+-list.insert(index, item): Insert item at specific position
+-list.remove(item): Remove first occurrence of item
+-list.pop(index): Remove and return item at index (default: last item)
+-list.index(item): Find index of first occurrence
+-list.count(item): Count occurrences of item
+-list.sort(): Sort in place
+-list.reverse(): Reverse in place
+-list.extend(iterable): Add all items from another iterable
 
 List slicing: list[start:end:step]
 - list[2:5] gets items from index 2 to 4
@@ -38,54 +38,68 @@ List comprehensions: [expression for item in iterable if condition]
 # ====== BASIC LIST OPERATIONS (Problems 1-15) ======
 
 # Problem 1: Create a list of numbers 1-10
-# numbers = 
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
 
 # Problem 2: Add the number 11 to the end of the list
-# numbers.append()
+# numbers.append(11)
 
 # Problem 3: Insert the number 0 at the beginning of the list
-# numbers.insert()
+# numbers.insert(0, 0)
 
 # Problem 4: Remove the number 5 from the list
-# numbers.remove()
+# numbers.remove(5)
 
 # Problem 5: Get the last element using negative indexing
-# last_element = 
+# last_element = numbers[-1]
 
 # Problem 6: Get elements from index 2 to 7 (slicing)
-# slice_result = 
+# slice_result = numbers[2:7]
 
 # Problem 7: Reverse the list
 # numbers.reverse()
 
 # Problem 8: Sort a list of names alphabetically
 # names = ['Alice', 'Charlie', 'Bob', 'Diana']
-# names.sort()
+# names.sort()   #sorts in place
+
+# sorted_names_list = sorted(names) #create a new list that is sorted without altering original
+
+
 
 # Problem 9: Find the index of 'Bob' in the names list
-# bob_index = 
+# bob_index = names.index('Bob')
 
 # Problem 10: Count how many times 'a' appears in the string list
 # letters = ['a', 'b', 'a', 'c', 'a', 'd']
-# count_a = 
+# count_a = letters.count('a')
+# print(count_a)
 
 # Problem 11: Extend a list with another list
 # list1 = [1, 2, 3]
 # list2 = [4, 5, 6]
-# list1.extend()
+# list1.extend(list2)
 
 # Problem 12: Create a list using list comprehension (squares of 1-5)
-# squares = 
+# squares = [x**2 for x in range(0,6)]
 
 # Problem 13: Filter even numbers from a list using list comprehension
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# evens = 
+# evens = [x % 2 == 0 for x in numbers]  #This returns booleans. The %modulo check to start returns True/False
+# print(evens)
+# evens_as_int = [x for x in numbers if x % 2 == 0]
+# print(evens_as_int)
 
+# def iterative_version(numbers):
+    # for x in numbers:
+        # if x % 2 == 0:
+            # print(x)
+
+# print(iterative_version(numbers))
 # Problem 14: Pop the last element and store it in a variable
 # numbers = [1, 2, 3, 4, 5]
-# last = 
+# last = numbers.pop() 
 
-# Problem 15: Clear all elements from a list
+# # Problem 15: Clear all elements from a list
 # numbers.clear()
 
 # ====== DICTIONARIES - LESSON & EXPLANATION ======
@@ -119,7 +133,7 @@ Dictionary comprehensions: {key_expr: value_expr for item in iterable if conditi
 # ====== BASIC DICTIONARY OPERATIONS (Problems 16-30) ======
 
 # Problem 16: Create a dictionary with person information
-# person = {}
+
 
 # Problem 17: Add a new key-value pair to the dictionary
 # person['email'] = 

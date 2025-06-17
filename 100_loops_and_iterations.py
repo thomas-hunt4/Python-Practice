@@ -12,6 +12,7 @@ Instructions:
 # ===== Basic For Loops (Problems 1-20) =====
 
 def problem_1():
+    
     """
     Print numbers from 1 to 20.
     """
@@ -66,6 +67,7 @@ def problem_4(n):
 
 
 def problem_5():
+    
     """
     Calculate and return the sum of numbers from 1 to 100.
     

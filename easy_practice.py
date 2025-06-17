@@ -4,10 +4,7 @@
 # Create a function that checks if two numbers are equal.
 
 def is_same_num(num1, num2):
-    if num1 == num2:
-        return True
-    else: 
-        return False
+    pass
     
 # print(is_same_num(7,7))
     
@@ -23,10 +20,7 @@ def is_same_num(num1, num2):
 # Create a function that checks if a number is less than or equal to zero.
 
 def less_than_or_equal_to_zero(num):
-    if num <= 0:
-        return True
-    else:
-        return False
+    pass
     
 # print(less_than_or_equal_to_zero(7)) 
 
@@ -44,7 +38,7 @@ def less_than_or_equal_to_zero(num):
 # Fix the code so the function correctly greets the user, with a special greeting for Mubashir.
 
 def greeting(name):
-    return(f"Hello, {name}!")
+    pass
 
 # print(greeting('Jeff'))
 
@@ -60,7 +54,7 @@ def greeting(name):
 # Create a function that returns the modulo result of two given numbers.
 
 def mod(a, b):
-    return a % b
+    pass
 
 # Examples
 # print(mod(-13, 64)) # ➞ 51
@@ -74,7 +68,7 @@ def mod(a, b):
 # Create a function that takes a list of numbers and returns the largest number.
 
 def findLargestNum(lst):
-    return max(lst)
+    pass
 
 # Examples
 # print(findLargestNum([4, 5, 1, 3])) # ➞ 5
@@ -88,7 +82,7 @@ def findLargestNum(lst):
 # Create a function that takes a list of numbers and returns the smallest number.
 
 def findSmallestNum(lst):
-    return min(lst)
+    pass
 
 # Examples
 # print(findSmallestNum([34, 15, 88, 2])) # ➞ 2
@@ -102,10 +96,7 @@ def findSmallestNum(lst):
 # Debug the function so it correctly returns True if the number is exactly 7.
 
 def is_seven(x):
-    if x == 7:
-        return True
-    else:
-        return False
+    pass
     
 
 # Examples
@@ -120,9 +111,7 @@ def is_seven(x):
 # Create a function that returns the difference between the smallest and largest numbers in a list.
 
 def differencemaxmin(lst):
-    maxlst = max(lst)
-    minlst = min(lst)
-    return maxlst - minlst
+    pass
     
 
 # Examples
@@ -136,7 +125,7 @@ def differencemaxmin(lst):
 # Create a function to concatenate two integer lists.
 
 def concat(lst1, lst2):
-    return lst1 + lst2
+    pass
 
 # Examples
 # print(concat([1, 3, 5], [2, 6, 8])) # ➞ [1, 3, 5, 2, 6, 8]
@@ -150,9 +139,7 @@ def concat(lst1, lst2):
 # Create a function that returns the difference between the largest and smallest numbers in a list.
 
 def difference(lst):
-    maxlst = max(lst)
-    minlst = min(lst)
-    return maxlst - minlst
+    pass
 
 # Examples
 # print(difference([10, 15, 20, 2, 10, 6])) # ➞ 18
@@ -166,10 +153,7 @@ def difference(lst):
 # Create a function that returns True if the sum of two numbers is less than 100, otherwise False.
 
 def less_than_100(a, b):
-    if a + b < 100:
-        return True
-    else:
-        return False
+    pass
 
 # Examples
 # print(less_than_100(22, 15)) # ➞ True
@@ -183,7 +167,7 @@ def less_than_100(a, b):
 # Create a function that returns the last element of a list.
 
 def get_last_item(lst):
-    return lst[-1]
+    pass
 
 # Examples
 # print(get_last_item([1, 2, 3])) # ➞ 3
@@ -197,7 +181,7 @@ def get_last_item(lst):
 # Create a function that takes a name and returns a greeting as a string.
 
 def hello_name(name):
-    print(f'Hello {name}!')
+    pass
 
 # Examples
 # print(hello_name("Gerald")) # ➞ "Hello Gerald!"
@@ -211,12 +195,8 @@ def hello_name(name):
 # Create a function that returns True if one of the numbers is 10 or their sum is 10.
 
 def makes_10(a, b):
-    if a or b == 10:
-        return True
-    elif a + b == 10:
-        return True
-    else:
-        return False
+    
+    pass
 
 # Examples
 # print(makes_10(9, 1)) # ➞ True
@@ -230,10 +210,7 @@ def makes_10(a, b):
 # Create a function that checks if a gamble is profitable based on probability, prize, and pay.
 
 def profitable_gamble(prob, prize, pay):
-    if prob * prize > pay:
-        return True
-    else:
-        return False
+    pass
 
 # Examples
 # print(profitable_gamble(0.2, 50, 9)) # ➞ True
@@ -246,10 +223,7 @@ def profitable_gamble(prob, prize, pay):
 # Create a function that returns True if a number is evenly divisible by 5.
 
 def divisible_by_five(num):
-    if num % 5 == 0:
-        return True
-    else:
-        return False
+    pass
     
     
 # Examples
@@ -264,7 +238,7 @@ def divisible_by_five(num):
 # Create a function that takes a list and returns the sum of all numbers in the list.
 
 def getsumof_elements(lst):
-    return sum(lst)
+    pass
     
 
 # Examples
@@ -279,9 +253,7 @@ def getsumof_elements(lst):
 # Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
 
 def frames(minutes, fps):
-    # seconds = minutes * 60
-    # return seconds * fps 
-    return minutes * 60 * fps 
+    pass
 
 # Examples
 # print(frames(1, 1)) # ➞ 60
@@ -295,10 +267,7 @@ def frames(minutes, fps):
 # Create a function that takes an integer and returns True if it's divisible by 100, otherwise False.
 
 def divisible(num):
-    if num % 100 == 0:
-        return True
-    else:
-        return False 
+    pass
 
 # Examples
 # print(divisible(1)) # ➞ False
@@ -312,10 +281,7 @@ def divisible(num):
 # Python has a logical operator `and`, which returns True if both values are True.
 
 def and_operator(a, b):
-    if a and b:
-        return True
-    else:
-        return False 
+    pass 
    
 
 # Examples
@@ -345,7 +311,7 @@ def ktok(n, k):
 # Fix the code in the code tab to pass this challenge (only syntax errors).
 
 def max_num(a, b):
-    return max(a,b)
+    pass
 
 # Examples
 # print(max_num(3, 7)) # ➞ 7
@@ -359,10 +325,7 @@ def max_num(a, b):
 # Create a function that takes two strings as arguments and returns True if they have the same length.
 
 def comp(str1, str2):
-    if len(str1) == len(str2):
-        return True
-    else:
-        return False
+    pass
 
 # Examples
 # print(comp("AB", "CD")) # ➞ True
@@ -377,10 +340,7 @@ def comp(str1, str2):
 # Create a function that returns True if a can be divided evenly by b. Otherwise, return False.
 
 def divides_evenly(a, b):
-    if a % b == 0:
-        return True
-    else:
-        return False
+    pass
 
 # Examples
 # print(divides_evenly(98, 7)) # ➞ True
@@ -407,7 +367,7 @@ def calculate_fuel(distance):
 # Create a function that returns True if a string is empty, otherwise False.
 
 def is_empty(string):
-    return string == ''
+    pass
     
 
 # Examples
@@ -421,7 +381,7 @@ def is_empty(string):
 # Create a recursive function that repeats a string n number of times.
 
 def repetition(txt, n):
-    return txt * n
+    pass
 
 # Examples
 # print(repetition("ab", 3)) # ➞ "ababab"
@@ -434,7 +394,7 @@ def repetition(txt, n):
 # Fix the function so it correctly swaps two given numbers.
 
 def swap(a, b):
-    return b, a 
+    pass 
 
 # Examples
 # print(swap(100, 200)) # ➞ [200, 100]
@@ -447,7 +407,7 @@ def swap(a, b):
 # Create a function that returns the negative of a number.
 
 def return_negative(num):
-    return -abs(num)
+    pass
 
 # Examples
 # print(return_negative(4)) # ➞ -4
@@ -460,10 +420,7 @@ def return_negative(num):
 # Create a function that returns True if the sum of values in a list is less than 100.
 
 def listlessthan_100(lst):
-    if sum(lst) > 100:
-        return True
-    else:
-        return False
+    pass
     
 
 # Examples
@@ -478,7 +435,7 @@ def listlessthan_100(lst):
 # Create a function that takes two strings, firstname and lastname, and returns them as "last, first".
 
 def concat_name(firstname, lastname):
-    return lastname, firstname
+    pass
 
 # # Examples
 # print(concat_name("First", "Last")) # ➞ "Last, First"
@@ -492,7 +449,7 @@ def concat_name(firstname, lastname):
 # Create a function that evaluates a mathematical expression given as a string.
 
 def calculator(expression):
-    return eval(expression)
+    pass
 
 # Examples
 # print(calculator("23+4")) # ➞ 27
@@ -507,11 +464,8 @@ def calculator(expression):
 # Create a function that takes a string and returns its first and last character concatenated.
 
 def first_last(string):
-    x = string[:-1]
-    # y = string[-1]
-    # return string[0] + string[-1]
-    return x 
-"""Come back to this. Code is functioning but should be a one line return solution
+    pass
+    """Come back to this. Code is functioning but should be a one line return solution
 """
 # Examples
 # print(first_last("ganesh")) # ➞ "gh"
@@ -527,11 +481,7 @@ def first_last(string):
 # Create a function that returns True if the length of a string is even, otherwise False.
 
 def oddoreven(string):
-    # x = len(string)
-    if len(string) % 2 == 0:
-        return True
-    else:
-        return False 
+    pass 
     
 
 # Examples
@@ -546,7 +496,7 @@ def oddoreven(string):
 # Create a function that takes two arguments and returns them as a list.
 
 def make_pair(a, b):
-    return [a,b]
+    pass
 
 # Examples
 # print(make_pair(1, 2)) # ➞ [1, 2]
@@ -560,7 +510,7 @@ def make_pair(a, b):
 # Create a function that repeats the first three characters of a string three times.
 
 def front3(string):
-    return string[:3] * 3
+    pass
 
 # Examples
 # print(front3("apple")) # ➞ "appappapp"
@@ -574,10 +524,7 @@ def front3(string):
 # Create a function that returns True if two lists contain identical values, and False otherwise.
 
 def check_equals(lst1, lst2):
-    if lst1 == lst2:
-        return True
-    else:
-        return False 
+    pass 
 
 # Examples
 # print(check_equals([1, 2, 3], [1, 2, 3])) # ➞ True
@@ -593,10 +540,7 @@ def check_equals(lst1, lst2):
 # Create a function that simplifies redundant boolean checks in conditional statements.
 
 def minimal_boolean(value):
-    if value == True:
-        return True
-    else:
-        return False
+    pass
     
     
     
@@ -612,7 +556,7 @@ def minimal_boolean(value):
 # Create a function that converts inches into feet.
 
 def inches_to_feet(inches):
-    return inches / 12
+    pass
 
 # Examples
 # print(inches_to_feet(324)) # ➞ 27
@@ -626,10 +570,7 @@ def inches_to_feet(inches):
 # Create a function that determines if the sum of a list of numbers is even or odd.
 
 def even_or_odd(lst):
-    if sum(lst) % 2 == 0:
-        return "even"
-    else:
-        return 'odd'
+    pass
 
 # Examples
 # print(even_or_odd([0])) # ➞ "even"
@@ -644,10 +585,7 @@ def even_or_odd(lst):
 # Debug the function so it correctly checks whether a number is odd.
 
 def is_odd(num):
-    if num % 2 == 0:
-        return False
-    else:
-        return True
+    pass
 
 # Examples
 # print(is_odd(-5)) # ➞ True
@@ -661,7 +599,7 @@ def is_odd(num):
 # Create a function that converts a number into a string of hyphens.
 
 def num_to_dashes(num):
-    return num * '-'
+    pass
 
 # Examples
 # print(num_to_dashes(1)) # ➞ "-"
@@ -674,10 +612,7 @@ def num_to_dashes(num):
 # Create a function that calculates the area of a rectangle, returning -1 for invalid inputs.
 
 def area(length, width):
-    if length and width > 0:
-        return length * width
-    else:
-        return -1 
+   pass
 
 # Examples
 # print(area(3, 4)) # ➞ 12
@@ -693,10 +628,7 @@ def area(length, width):
 # Create a function that checks if a number exists in a list.
 
 def check(lst, num):
-    if num in lst:
-        return True
-    else:
-        return False
+    pass
     
 
 # Examples
@@ -713,10 +645,7 @@ def check(lst, num):
 # Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers.
 
 def is_even_or_odd(num):
-    if num % 2 == 0:
-        return "even"
-    else:
-        return "odd"
+    pass
     
 
 # Examples  
@@ -737,9 +666,7 @@ def is_even_or_odd(num):
 
 def is_plural(word):
     pass
-"""This is not worth doing. Import a libary rather then just remove the 's' from words. 
-Not how language works.
-"""
+
 
 # Examples  
 # print(is_plural("changes")) # ➞ True  
@@ -759,7 +686,7 @@ Not how language works.
 # In other words, for a given number of switches, how many different patterns of on and off can we have?
 
 def pos_com(num_switches):
-    return 2 ** num_switches
+   pass
     
 
 # Examples  
@@ -777,11 +704,7 @@ def pos_com(num_switches):
 # Create a function that takes a string (a random name). If the last character of the name is an "n", return True, otherwise return False.
 
 def is_last_character_n(name):
-    x = name[-1]
-    if x == 'n':
-        return True
-    else:
-        return False
+    pass
 
 # Examples  
 # print(is_last_character_n("Aiden")) # ➞ True  
@@ -802,13 +725,7 @@ def is_last_character_n(name):
 # The packaging machine is running the get_container() function to retrieve the container of each product.
 
 def get_container(item):
-    match item:
-        case 'Bread':
-            return 'bag'
-        case 'Candy':
-            return 'plastic'
-        case 'Cereal':
-            return 'box'
+    pass
 
 
     
@@ -828,7 +745,7 @@ def get_container(item):
 # Create a function that returns the string "Burp" with the amount of "r's" determined by the input parameters of the function.
 
 def long_burp(num_r):
-    return f'Bu{num_r * 'r'}p'
+    pass
 
 # Examples  
 # print(long_burp(3)) # ➞ "Burrrp"  
@@ -849,7 +766,7 @@ def long_burp(num_r):
 # Create a function that returns the ASCII value of the passed-in character.
 
 def ctoa(char):
-    return ord(char)
+    pass
 
 # Examples  
 # print(ctoa("A")) # ➞ 65  
@@ -867,7 +784,7 @@ def ctoa(char):
 # Create a function that evaluates an equation given as a string.
 
 def eq(expression):
-    return eval(expression)
+    pass
 
 # Examples  
 # print(eq("1+2")) # ➞ 3  
@@ -885,7 +802,7 @@ def eq(expression):
 # Create a function that places the first argument, a character, between every word in the second argument, a string.
 
 def add(char, string):
-    return string.replace(' ', char)
+    pass
 
 # Examples  
 # print(add("R", "python is fun")) # ➞ "pythonRisRfun"  
@@ -902,10 +819,7 @@ def add(char, string):
 # Create a function that returns the opposite boolean value, represented as a number.
 
 def flip_bool(value):
-    if  value == True:
-        return 0
-    else:
-        return 1
+    pass
     
 
 # Examples  
@@ -924,10 +838,7 @@ def flip_bool(value):
 # Debug the function so it correctly compares two lists for identical length and values.
 
 def compare_arrays(lst1, lst2):
-    if lst1 == lst2:
-        return True
-    else:
-        return False 
+    pass
 
 # Examples  
 # print(compare_arrays([1, 2, 3], [1, 2, 3])) # ➞ True  
@@ -944,7 +855,7 @@ def compare_arrays(lst1, lst2):
 # Fix the code in the function to properly sum a list of numbers.
 
 def sum_lst(lst):
-    return sum(lst)
+    pass
 
 # Examples  
 # print(sum_lst([1, 2, 3, 4, 5])) # ➞ 15  
@@ -963,7 +874,7 @@ def sum_lst(lst):
 # Create a function that takes a word and returns the new word without including the first character.
 
 def new_word(word):
-    return word[1:]
+    pass
 
 # Examples  
 # print(new_word("apple")) # ➞ "pple"  
@@ -997,7 +908,7 @@ def years_in_one_house(age, moves):
 # Create a function that takes an equation (e.g. "1+1") as a string and returns the answer.
 
 def equation(expr):
-    return eval(expr)
+    pass
 
 # Examples  
 # print(equation("1+1")) # ➞ 2  
@@ -1029,12 +940,7 @@ def star_number(n): #-> 'what?'
 # Create a function that calculates the area of a given shape based on its base and height.
 
 def area_shape(base, height, shape):
-    if shape == 'triangle':
-        return base * height * .5
-    elif shape == 'parallelogram':
-        return base * height
-    else:
-        return f'{shape} is not a shape, but a figment of your imagination.'
+    pass
 
 # Examples  
 # print(area_shape(2, 3, "triangle")) # ➞ 3  
@@ -1050,11 +956,7 @@ def area_shape(base, height, shape):
 # Create a function that returns a list with half, a quarter, and an eighth of the given number.
 
 def half_quarter_eighth(num):
-    num_parts = []
-    num_parts.append(num * .5)
-    num_parts.append(num * .25)
-    num_parts.append(num * .125)
-    return num_parts
+    pass
 # Examples  
 # print(half_quarter_eighth(6)) # ➞ [3, 1.5, 0.75]  
 
@@ -1068,7 +970,7 @@ def half_quarter_eighth(num):
 # Create a function that returns a string containing "Ed" followed by a specified number of "a"s and ending in "bit".
 
 def how_many_times(n):
-    return (f'Ed{n * 'a'}bit')
+    pass
     
 
 # Examples  
@@ -1087,7 +989,7 @@ def how_many_times(n):
 # Create a function that accepts a list of numbers and returns both the minimum and maximum numbers, in that order.
 
 def min_max(lst):
-    return min(lst), max(lst)
+    pass
     
 
 # Examples  
@@ -1105,10 +1007,7 @@ def min_max(lst):
 # Create a function that returns True if a string contains any spaces.
 
 def has_spaces(string):
-    if ' ' in string:
-        return True
-    else:
-        return False
+    pass
     
 
 # Examples  
